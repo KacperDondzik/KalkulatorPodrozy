@@ -2,7 +2,16 @@
 
 namespace KalkulatorPodrozyApp
 {
-  
+    /********************************************************
+      * nazwa klasy: KalkulatorPodrozy
+      * opis klasy: Klasa reprezentuje kalkulator obliczający całkowity
+      *              koszt przejazdu samochodem oraz koszt na pasażera.
+      * pola: Dystans - dystans trasy w kilometrach (double)
+      *       Spalanie - średnie zużycie paliwa na 100 km (double)
+      *       CenaPaliwa - cena za 1 litr paliwa w zł (double)
+      *       LiczbaPasazerow - liczba osób podróżujących (int)
+      * autor: Kacper Dondzik
+      ********************************************************/
     public class KalkulatorPodrozy
     {
         public double Dystans { get; set; }
